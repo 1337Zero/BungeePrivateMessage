@@ -1,0 +1,29 @@
+Settings:
+  socialspy-cmd-output: false
+  enable-listcmd: false
+Message:
+  proxy-deny-msg: '&4Du bist ein proxy...'
+  message-send: '&6An &c<target>&6: <msg>'
+  message-recieve: '&6Von &c<from>&6: <msg>'
+  not-to-you: '&2[CultCraft] &7Du kannst keine Nachricht an dich selbst senden.'
+  unknown-player: '&2[CultCraft]  &7Spieler <player> nicht gefunden.'
+  msg:
+    usage: '&4Usage: /msg <player> <message>'
+  list:
+    usage: '&4Usage: /list'
+    syntax: '&6Es sind &4<playerAmount>&6 Spieler online.'
+  mute:
+    usage: '&4Usage: /msgmute <player>'
+    player-muted: '&2[CultCraft] &7Du erhälst keine Nachrichten von <player> mehr.'
+    player-unmuted: '&2[CultCraft] &7Du erhälst nun wieder Nachrichten von <player>.'
+  r:
+    usage: '&4Usage: /r <message>'
+    no-reply: '&2[CultCraft] &7Du hast niemanden dem du antworten kannst. Warte ab bis dir jemand eine Nachricht schreibt.'
+    player-offline: '&2[CultCraft] &7Der Spieler, dem du zuletzt eine Nachricht geschrieben hast, ist nicht mehr online.'
+    blocked: '&2[CultCraft] Du wurdest von <player>, stumm geschaltet.'
+  socialspy:
+    usage: '&4Usage: /socialspy'
+    socialspy-format: '&c<from> &f-> &c<target>&f:&6 <msg>'
+    socialspy-on: '&2[CultCraft] &7Du solltest nun Private Nachrichten erhalten.'
+    socialspy-off: '&2[CultCraft] &7Du solltest nun nicht mehr private Nachrichten erhalten.'
+    
